@@ -1,0 +1,95 @@
+
+
+#carrousel{
+	border: solid 5px #e7dbc5;
+	width: 400px;
+	height: 537px;
+	margin:0 auto;
+	position: relative;
+}
+
+
+img{
+width: 400px;
+height: 537px;
+}
+
+
+/*.slide{
+	position: absolute;
+	top:0; 
+	left:0;
+	width: 400px;
+	height: 537px;
+}*/
+
+h1{
+	text-align: center;
+}
+
+
+.title{
+	position: absolute;
+	padding-left: 5px;
+	line-height: 35px;
+	width: 700px;
+	height: 35px;
+	bottom: 0;
+	left:0;
+	color:white;
+	font-weight: bold;
+	font-size: 1em;
+/*	background:url(carrousel_slide/small/carrouselsepia_small.jpg) top left repeat;
+*/}
+
+#bloc_carrousel{
+	display-flex
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-around;
+	flex-wrap: wrap;
+
+}
+
+.boutons{
+	/*position: absolute;*/
+	top: 500px;
+	left: 500px;
+	width: 85px;
+	background: blue;
+	color: #FFFFFF;
+	padding: 2px 4px;
+	cursor: pointer;
+	width: 200px;
+	height: 40px;
+	text-align: center;
+	font-size: 2em;
+
+}
+
+.gallerie img{
+	width: 100px;
+	height: auto;	
+}
+
+.gallerie {
+	margin-top: 20px;
+	text-align: center;
+
+}
+
+#bloc_carrousel{
+	display: flex;
+	flex-direction:row;
+	align-items:center;
+	margin-left: 300px;
+	margin-right: 300px;
+
+
+}
+
+/*.navigation span:hover,.navigation span.active{
+background: #FFFFFF;
+color: #000000;
+
+}*/
